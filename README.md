@@ -11,12 +11,25 @@ This lab transforms a regular Kali Linux VM into a secure, stealthy hacking envi
 
 ### 1. **Kill Switch (Firewall Rules)**
 Blocks **all internet traffic** except that which goes through your VPN. If the VPN fails — you're offline, not exposed.
+--> Inside kali lab folder do this nano ~/kali-lab/kill-switch.sh -> then my script file texts to it paste it or modify it --> make it executable chmod +x ~/kali-lab/kill-switch.sh
 
 ### 2. **MAC Address Spoofer**
 Randomizes your MAC address every session to avoid device fingerprinting.
+--> Inside the same folder kali-lab do this -> nano ~/kali-lab/random-mac.sh ->then copy my file elements then at last -> chmod +x ~/kali-lab/random-mac.sh 
 
 ### 3. **DNS Leak Protection**
 Hardcoded DNS servers (e.g., Cloudflare) + file locking prevent your DNS requests from leaking out of VPN/Tor tunnels.
+let's edit by go to terminal -> sudo nano /etc/resolv.conf -> 
+set these ->
+"
+nameserver 1.1.1.1
+nameserver 1.0.0.1
+"
+->
+do this lock it -> sudo chattr +i /etc/resolv.conf
+
+
+
 
 ### 4. **Privacy Boot Script**
 A one-touch script to:
@@ -24,6 +37,10 @@ A one-touch script to:
 - Activate Kill Switch
 - Lock DNS
 - Launch your preferred network mode (VPN, Tor, combo)
+
+->ofc inside kali lab nano ~/kali-lab/privacy-boot.sh
+-> then paste my content then this at last
+-> chmod +x ~/kali-lab/privacy-boot.sh
 
 ---
 
@@ -53,3 +70,6 @@ A one-touch script to:
 This lab is for **educational** and **research** purposes only. Misuse may violate laws. Stay ethical.
 
 ---
+text me at X or linkedIn or follow me at insta or dm me for better help and guidance always happy to help any kind software or hardware and assistance.
+leave me a tip at buymeacoffe the 4th link in github.
+----
