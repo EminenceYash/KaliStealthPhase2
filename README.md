@@ -70,6 +70,10 @@ A one-touch script to:
 This lab is for **educational** and **research** purposes only. Misuse may violate laws. Stay ethical.
 
 ---
-text me at X or linkedIn or follow me at insta or dm me for better help and guidance always happy to help any kind software or hardware and assistance.
+
+Text me at X or linkedIn or follow me at insta or dm me for better help and guidance always happy to help any kind software or hardware and assistance.
 leave me a tip at buymeacoffe the 4th link in github.
-----
+
+---
+
+
