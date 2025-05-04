@@ -61,10 +61,9 @@ A one-touch script to:
 3. Choose a network mode (VPN, Tor, or both)  
 4. Browse safely — anonymously  
 
-> Bonus: You're ready to integrate Tails OS and live USB workflows for even higher OPSEC. (use it as it's more safe don't use tails on vm we'll talk about it on another day)
-
+> Bonus: You're ready to integrate Tails OS and live USB workflows for even higher OPSEC. // (use it as it's more safe don't use tails on vm we'll talk about it on another day)
+> Well proper tails os guide is released [Here](https://github.com/EminenceYash/FinalBossAnonymity).
 ---
-
 ## ⚠️ Disclaimer
 
 This lab is for **educational** and **research** purposes only. Misuse may violate laws. Stay ethical.
